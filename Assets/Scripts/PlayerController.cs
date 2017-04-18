@@ -83,7 +83,6 @@ public class PlayerController : MonoBehaviour {
 		}
 	}
 
-	bool morphing;
 	int morphState;
 
 	void powerUp() {
@@ -96,7 +95,6 @@ public class PlayerController : MonoBehaviour {
 		rb.simulated = false;
 		cam.enabled = false;
 
-		morphing = true;
 		morphState = 0;
 		InvokeRepeating ("growBig", 0, 0.1f);
 
@@ -106,8 +104,6 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void growBig() {
-		Debug.Log (transform.localScale);
-
 		// morph
 		if (morphState % 2 == 0) {
 			transform.localScale = new Vector2 (1, 1.5f);

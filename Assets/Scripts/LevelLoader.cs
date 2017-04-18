@@ -15,13 +15,16 @@ public class LevelLoader : MonoBehaviour {
 	public CameraController cam;
 	internal int width;
 	internal int height;
+	internal Plane background;
 
 	private SpriteRenderer sr;
 
 	// Use this for initialization
 	void Start () {
 		cam = Camera.main.GetComponent<CameraController>();
+		EmptyMap ();
 		LoadMap ();
+		CreateBackPlane ();
 	}
 
 	void EmptyMap() {
@@ -31,9 +34,14 @@ public class LevelLoader : MonoBehaviour {
 			Destroy (c.gameObject);
 		}
 	}
+
+	// create plane to get camera ray intersections
+	void CreateBackPlane() {
+		// new plane (normal, point-on-plane)
+		background = new Plane(new Vector3(0, 0, 1), new Vector3(1, 1, 0));
+	}
 	
 	void LoadMap() {
-		EmptyMap ();
 		Color32[] allMyPixels = levelMap.GetPixels32 ();
 
 		width = levelMap.width;
