@@ -1,0 +1,87 @@
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R9 200 Series (ID=0x67b1)
+    Vendor:   ATI
+    VRAM:     3072 MB
+    Driver:   20.19.15.4531
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\repo\roguelike\build_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\repo\roguelike\build_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\repo\roguelike\build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\repo\roguelike\build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\repo\roguelike\build_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\repo\roguelike\build_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\repo\roguelike\build_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\repo\roguelike\build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\repo\roguelike\build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\repo\roguelike\build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\repo\roguelike\build_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\repo\roguelike\build_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.018 seconds
+Platform assembly: C:\repo\roguelike\build_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\repo\roguelike\build_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.962851 ms
+Map dimensions: 3584 x 240.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Couldn't find matching color prefab for color: RGBA(185, 0, 159, 255)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Couldn't find matching color prefab for color: RGBA(185, 0, 159, 255)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Couldn't find matching color prefab for color: RGBA(185, 0, 159, 255)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Couldn't find matching color prefab for color: RGBA(185, 0, 159, 255)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Couldn't find matching color prefab for color: RGBA(185, 0, 159, 255)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Couldn't find matching color prefab for color: RGBA(185, 0, 159, 255)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Couldn't find matching color prefab for color: RGBA(185, 0, 159, 255)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Couldn't find matching color prefab for color: RGBA(185, 0, 159, 255)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Couldn't find matching color prefab for color: RGBA(185, 0, 159, 255)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Couldn't find matching color prefab for color: RGBA(185, 0, 159, 255)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1694 -> priority: 1 
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at MysteryBlockController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at MysteryBlockController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
