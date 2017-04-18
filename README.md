@@ -1,4 +1,4 @@
-# smb1_remake
+# SMB1 Remake
 Super mario 1 partial remake in unity.
 
 ## To run:
