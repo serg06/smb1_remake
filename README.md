@@ -2,7 +2,7 @@
 Super mario 1 partial remake in unity.
 
 ## To run:
-The latest builds are automatically available on [Unity Butt Deployment](https://developer.butt.unity3d.com/build/orgs/serg06/projects/roguelike/).
+The latest builds are automatically available on [Unity Cloud Deployment](https://developer.Cloud.unity3d.com/build/orgs/serg06/projects/roguelike/).
 
 Alternatively, you can download the [win64 build from /bin/](https://github.com/serg06/smb1_remake/raw/master/bin/windows_64bit.zip).
 
