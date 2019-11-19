@@ -6,6 +6,8 @@ The latest builds are automatically available on [Unity Butt Deployment](https:/
 
 Alternatively, you can download the [win64 build from /bin/](https://github.com/serg06/smb1_remake/raw/master/bin/windows_64bit.zip).
 
+Controls: WASD Space.
+
 ## To develop:
 Open folder in Unity, select MAIN scene.
 
